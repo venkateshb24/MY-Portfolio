@@ -3,9 +3,331 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Venkatesh B - Portfolio</title>
+    <meta name="description" content="Portfolio of Venkatesh B, AI & ML Engineering Student, MERN Stack Developer.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <h1>Hello!</h1>
+    <div class="blob-bg"></div>
+    <div class="blob-bg blob-bg-2"></div>
+    
+    <nav class="navbar">
+        <div class="nav-content">
+            <a href="#" class="logo">VB.</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="hero-content fade-in">
+                <span class="greeting">Hi, I'm</span>
+                <h1 class="name">Venkatesh B</h1>
+                <h2 class="title">B.E. (CSE) - AIML Student</h2>
+                <p class="summary">
+                    A passionate Full-Stack MERN Developer and AI enthusiast dedicated to building impactful web applications and intelligent systems.
+                </p>
+                <div class="social-links">
+                    <a href="mailto:venkateshb2402@gmail.com" class="social-icon" target="_blank"><i class="fas fa-envelope"></i></a>
+                    <a href="#" class="social-icon" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-icon" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-icon" target="_blank"><i class="fas fa-code"></i></a>
+                </div>
+                <a href="#projects" class="btn primary-btn">View My Work</a>
+            </div>
+        </section>
+
+        <!-- Education & Coding Profiles Section -->
+        <section id="about" class="section">
+            <div class="section-header fade-in">
+                <h2>Education & Coding Profiles</h2>
+                <div class="line"></div>
+            </div>
+            
+            <div class="two-col-layout">
+                <div class="col fade-in">
+                    <div class="card education-card">
+                        <div class="card-icon"><i class="fas fa-graduation-cap"></i></div>
+                        <div class="card-content">
+                            <h3>Sri Eshwar College of Engineering</h3>
+                            <p class="subtitle">B.E. (CSE) - AIML | CGPA: 7.93</p>
+                            <span class="date">2024 - 2028</span>
+                        </div>
+                    </div>
+                    <div class="card education-card">
+                        <div class="card-icon"><i class="fas fa-school"></i></div>
+                        <div class="card-content">
+                            <h3>Infant Jesus Matric Higher Secondary School</h3>
+                            <p class="subtitle">HSC | 90%</p>
+                            <span class="date">2022 - 2024</span>
+                        </div>
+                    </div>
+                    <div class="card education-card">
+                        <div class="card-icon"><i class="fas fa-school"></i></div>
+                        <div class="card-content">
+                            <h3>Infant Jesus Matric Higher Secondary School</h3>
+                            <p class="subtitle">SSLC | 87.6%</p>
+                            <span class="date">2021 - 2022</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col fade-in">
+                    <div class="card profile-card">
+                        <div class="profile-header">
+                            <i class="fas fa-code"></i>
+                            <h3>LeetCode</h3>
+                        </div>
+                        <div class="profile-stats">
+                            <div class="stat"><span>Solved:</span> 300+ problems</div>
+                            <div class="stat"><span>Ranking:</span> 246,854</div>
+                            <div class="stat"><span>Contest Max:</span> 1,560</div>
+                        </div>
+                    </div>
+                    <div class="card profile-card">
+                        <div class="profile-header">
+                            <i class="fas fa-laptop-code"></i>
+                            <h3>SkillRack</h3>
+                        </div>
+                        <div class="profile-stats">
+                            <div class="stat"><span>Solved:</span> 900+ problems</div>
+                            <div class="stat"><span>Ranking:</span> 27,421</div>
+                            <div class="stat"><span>Medals:</span> 315 Bronze</div>
+                        </div>
+                    </div>
+                    <div class="card profile-card">
+                        <div class="profile-header">
+                            <i class="fas fa-utensils"></i>
+                            <h3>CodeChef</h3>
+                        </div>
+                        <div class="profile-stats">
+                            <div class="stat"><span>Solved:</span> 50+ problems</div>
+                            <div class="stat"><span>Badge:</span> Bronze</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <div class="section-header fade-in">
+                <h2>Technical Skills</h2>
+                <div class="line"></div>
+            </div>
+            
+            <div class="skills-grid fade-in">
+                <div class="skill-category">
+                    <h3><i class="fas fa-terminal"></i> Programming</h3>
+                    <div class="skill-tags">
+                        <span class="tag">C</span>
+                        <span class="tag">C++</span>
+                        <span class="tag">Java</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3><i class="fas fa-globe"></i> Web Technologies</h3>
+                    <div class="skill-tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">React.js</span>
+                        <span class="tag">Node.js</span>
+                        <span class="tag">Express.js</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-database"></i> Databases</h3>
+                    <div class="skill-tags">
+                        <span class="tag">MySQL</span>
+                        <span class="tag">MongoDB</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-brain"></i> Core Concepts</h3>
+                    <div class="skill-tags">
+                        <span class="tag">Data Structures</span>
+                        <span class="tag">OOP</span>
+                        <span class="tag">DBMS</span>
+                        <span class="tag">REST API</span>
+                        <span class="tag">JWT Auth</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Tools</h3>
+                    <div class="skill-tags">
+                        <span class="tag">Git</span>
+                        <span class="tag">GitHub</span>
+                        <span class="tag">VSCode</span>
+                        <span class="tag">Postman</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section">
+            <div class="section-header fade-in">
+                <h2>Experience</h2>
+                <div class="line"></div>
+            </div>
+            
+            <div class="timeline fade-in">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content card">
+                        <div class="flex-header">
+                            <h3>MERN Intern - BetterTomorrow</h3>
+                            <span class="date highlight">2025</span>
+                        </div>
+                        <ul class="task-list">
+                            <li>Built a full-stack College Event Management System using MongoDB, Express.js, React.js, and Node.js during hands-on training.</li>
+                            <li>Implemented JWT authentication, role-based access control, REST APIs, and real-time capacity tracking with secure admin management.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="section-header fade-in">
+                <h2>Projects</h2>
+                <div class="line"></div>
+            </div>
+
+            <div class="projects-grid fade-in">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-content">
+                        <div class="project-top">
+                            <i class="fas fa-folder-open folder-icon"></i>
+                            <span class="date">2026</span>
+                        </div>
+                        <h3>Student Productivity & DSA Consistency Tracker (Ongoing)</h3>
+                        <p>Built a full-stack web app using MERN stack to track DSA practice, coding streaks, and academic goals. Designed REST APIs and an interactive dashboard for CRUD operations and real-time analytics.</p>
+                        <div class="project-tech">
+                            <span>React Hooks</span>
+                            <span>MongoDB</span>
+                            <span>JWT Auth</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-content">
+                        <div class="project-top">
+                            <i class="fas fa-shopping-cart folder-icon"></i>
+                            <span class="date">2025</span>
+                        </div>
+                        <h3>E-Commerce Web Application</h3>
+                        <p>Developed a responsive e-commerce platform with product search, filtering, cart management, and secure localStorage auth. Implemented global state management via Context API.</p>
+                        <div class="project-tech">
+                            <span>React.js</span>
+                            <span>Tailwind CSS</span>
+                            <span>Context API</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-content">
+                        <div class="project-top">
+                            <i class="fas fa-car-crash folder-icon"></i>
+                            <span class="date">2025</span>
+                        </div>
+                        <h3>AI-Powered Accident Detection System</h3>
+                        <p>Built a real-time accident detection system using YOLO to identify incidents from live video feeds. Integrated GPS and Twilio for automated emergency alerts.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>OpenCV | YOLO</span>
+                            <span>Twilio API</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications & Achievements -->
+        <section id="achievements" class="section">
+            <div class="section-header fade-in">
+                <h2>Certifications & Achievements</h2>
+                <div class="line"></div>
+            </div>
+
+            <div class="two-col-layout">
+                <div class="col fade-in">
+                    <h3 class="sub-heading">Certifications</h3>
+                    <ul class="cert-list">
+                        <li>
+                            <div class="cert-info">
+                                <h4>GFG 160 Days of Problem Solving</h4>
+                                <span>Geeks for Geeks</span>
+                            </div>
+                            <span class="date">2025</span>
+                        </li>
+                        <li>
+                            <div class="cert-info">
+                                <h4>C / C++ Training Completion</h4>
+                                <span>IIT Bombay</span>
+                            </div>
+                            <span class="date">2025</span>
+                        </li>
+                        <li>
+                            <div class="cert-info">
+                                <h4>C Programming Course (Hands-On)</h4>
+                                <span>Skill Rack</span>
+                            </div>
+                            <span class="date">2024</span>
+                        </li>
+                        <li>
+                            <div class="cert-info">
+                                <h4>C for Beginners</h4>
+                                <span>Great Learning</span>
+                            </div>
+                            <span class="date">2024</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col fade-in">
+                    <h3 class="sub-heading">Achievements</h3>
+                    <div class="achievement-card card">
+                        <div class="achievement-header">
+                            <i class="fas fa-trophy highlight"></i>
+                            <h4>Freshathon 2k25 - Third Place</h4>
+                        </div>
+                        <p class="subtitle highlight-text">AI-Powered Accident Detection Camera</p>
+                        <p>Recognized for developing an AI-powered accident detection system using real-time video analysis and automated emergency alerts. Awarded for innovation, technical implementation, and real-world impact.</p>
+                        <span class="date badge">2025</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Built by Venkatesh B &middot; 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
